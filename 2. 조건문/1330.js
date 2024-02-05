@@ -1,4 +1,3 @@
-// 제출시 /dev/stdin
 var fs = require('fs');
 var input = fs.readFileSync('./input.txt').toString().split(' ');
 var a = parseInt(input[0]);

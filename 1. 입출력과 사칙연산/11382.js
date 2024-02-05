@@ -1,12 +1,6 @@
-// 제출시 /dev/stdin
 var fs = require('fs');
 var input = fs.readFileSync('./input.txt').toString().split(' ');
 var a = parseInt(input[0]);
 var b = parseInt(input[1]);
-if (a > b) {
-  console.log('>');
-} else if (a < b) {
-  console.log('<');
-} else if (a === b) {
-  console.log('==');
-}
+var c = parseInt(input[2]);
+console.log(a + b + c);
