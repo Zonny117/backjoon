@@ -10,6 +10,6 @@ for (let i = 0; i < t; i++) {
   for (let j = 0; j < s.length; j++) {
     str += s[j].repeat(r);
   }
-  ans.push(str.trim())
+  ans.push(str.trim());
 }
-console.log(ans.join("\n"));
+console.log(ans.join('\n'));
