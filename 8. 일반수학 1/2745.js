@@ -30,7 +30,7 @@ for (let i = 0; i < b.length; i++) {
     35 * 36^0
 
     이런식으로 반복횟수-1 만큼 역순으로 거듭제곱하여 나온 값을 전부 합산하면 된다.
-    Math.pow는 거듭제곱을 쉽게 할 수 있는 수학함수이다.
+    Math.pow는 거듭제곱을 쉽게 할 수 있는 자바스크립트 내장 객체이다.
     Math.pow(진법, 거듭제곱할 횟수)
   */
   sum += from36 * Math.pow(parseInt(n), b.length - i - 1);
