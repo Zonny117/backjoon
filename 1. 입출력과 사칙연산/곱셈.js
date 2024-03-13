@@ -1,3 +1,4 @@
+// 2588
 var input = require('fs').readFileSync('./input.txt').toString().split('\n');
 var a = parseInt(input[0]);
 var b = input[1];
