@@ -1,3 +1,4 @@
+// 10950
 var fs = require('fs');
 var input = fs.readFileSync('./input.txt').toString().split(/\s+/).map(Number);
 var t = input[0];

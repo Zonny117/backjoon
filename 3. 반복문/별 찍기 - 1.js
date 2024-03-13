@@ -1,3 +1,4 @@
+// 2438
 var fs = require('fs');
 var input = fs
   .readFileSync('./input.txt')
@@ -5,8 +6,8 @@ var input = fs
   .split(' ')
   .map(value => +value);
 var n = input[0];
-var ans = 0;
-for (let i = 1; i <= n; i++) {
-  ans += i;
+var ans = '';
+for (let i = 0; i < n; i++) {
+  ans += '*';
+  console.log(ans);
 }
-console.log(ans);

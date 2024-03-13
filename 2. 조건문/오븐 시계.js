@@ -1,3 +1,4 @@
+// 2525
 var fs = require('fs');
 // 정규표현식 공백으로 자르고, map 함수로 숫자로 변환
 var input = fs.readFileSync('./input.txt').toString().split(/\s+/).map(Number);

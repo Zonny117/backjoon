@@ -1,3 +1,4 @@
+// 2480
 // 예외 상황을 만들어선 안된다. 일어날 수 있는 모든 상황의 조건을 짜야됨.
 var fs = require('fs');
 var input = fs.readFileSync('./input.txt').toString().split(' ');
